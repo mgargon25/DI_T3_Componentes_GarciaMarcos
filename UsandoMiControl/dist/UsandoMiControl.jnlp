@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="UsandoMiControl.jnlp">
+  <information>
+    <title>UsandoMiControl</title>
+    <vendor>usuario</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="UsandoMiControl.jar" size="2820" download="eager" />
+    <jar href="lib\Componentes_GarciaMarcos.jar" size="2994" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="usandomicontrol.UsandoMiControl"  name="UsandoMiControl" />
+  <update check="always"/>
+</jnlp>
